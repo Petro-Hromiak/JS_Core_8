@@ -1,0 +1,130 @@
+.main {
+    width: 500px;
+    min-height: 450px;
+    border: 2px solid rgb(38, 194, 127);
+    border-radius: 10px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    height: 50px;
+    background-color: rgb(38, 194, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px 5px 0 0;
+}
+
+.form {
+    margin: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input, select {
+    height: 30px;
+}
+
+.radio {
+    margin-top: 10px;
+}
+
+input[type=radio], input[type=checkbox] {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: rgb(38, 194, 127);
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.account {
+    display: none;
+    width: 400px; 
+}
+
+.account-title {
+    height: 100px;
+    background-color: rgb(38, 194, 127);
+    position: relative;
+    border-radius: 5px 5px 0 0;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 3px solid white;
+    border-radius: 50%;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.sign-out {
+    width: 100px;
+    font-size: 16px;
+    color: rgb(38, 194, 127);
+    border: 2px solid rgb(38, 194, 127);
+    background-color: white;
+    cursor: pointer;
+}
+
+/* .sign-out a {
+    text-decoration: none;
+    color: rgb(38, 194, 127);
+}
+
+.sign-out:hover a {
+    color: white;
+} */
+
+.sign-out:hover {
+    background-color: rgb(38, 194, 127);
+    color: white;
+
+}
+
+
+.content-account {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(38, 194, 127);
+    margin-bottom: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.link {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
